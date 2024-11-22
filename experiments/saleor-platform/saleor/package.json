@@ -15,7 +15,7 @@
     "nice-try": "^3.0.0"
   },
   "devDependencies": {
-    "mjml": "^4.6.2"
+    "mjml": "^4.15.3"
   },
   "scripts": {
     "build-schema": "python manage.py get_graphql_schema > saleor/graphql/schema.graphql",
