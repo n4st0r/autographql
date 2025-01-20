@@ -13,7 +13,7 @@ WORKDIR /app
 RUN pip install -r requirements_dev.txt
 
 ### Final image
-FROM python:3.8-slim
+FROM python:3.14.0a1-slim
 
 RUN groupadd -r saleor && useradd -r -g saleor saleor
 
